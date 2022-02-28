@@ -31,80 +31,95 @@ body{
 #gender{
    
 } */
-
 .features{
-    height: auto;
-    /* border: 2px solid red; */
     text-align: center;
+    display: inline-block;
+    margin: 10px 75px;
 }
 
-#feature-1 p{
-    position: relative;
-    width: 70%;
-    margin: auto;
-    top: 83px;
-    font-family: 'Ubuntu Condensed', sans-serif;
+#feature-1{
+    /* border: 2px solid green; */
+    height: auto;
+    width: 238px;
 }
 
 #feature-1 img{
     height: auto;
-    width: 13%;
-    position: relative;
-    left: 557px;
-    bottom: 90px;
-    border: 4px solid black;
-}
-#feature-1:hover{
-    transform: scale(1.05);
-    transition: all 0.3s ease-in-out;
-    color: #9145B6;
+    width: 100%;
+   
 }
 
-#feature-2:hover{
-    transform: scale(1.05);
-    transition: all 0.3s ease-in-out;
-    color: #B958A5;
-}
-
-#feature-3:hover{
-    transform: scale(1.05);
-    transition: all 0.3s ease-in-out;
-    color: #9A0680;
-}
-
-#feature-2 p{
-    position: relative;
-    width: 70%;
-    margin: auto;
-    top: 83px;
-    font-family: 'Ubuntu Condensed', sans-serif;
+#feature-2{
+    /* border: 2px solid green; */
+    height: auto;
+    width: 238px;
+    
 }
 
 #feature-2 img{
     height: auto;
-    width: 13%;
-    position: relative;
-    right: 557px;
-    bottom: 90px;
-    border: 4px solid black;
+    width: 100%;
+   
 }
 
-#feature-3 p{
-    position: relative;
-    width: 70%;
-    margin: auto;
-    top: 83px;
-    font-family: 'Ubuntu Condensed', sans-serif;
+#feature-3{
+    /* border: 2px solid green; */
+    height: auto;
+    width: 238px;
+   
+
 }
 
 #feature-3 img{
     height: auto;
-    width: 13%;
-    position: relative;
-    left: 557px;
-    bottom: 90px;
-    border: 4px solid black;
+    width: 100%;
 }
+
+.features:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+#feature-1:hover{
+   color: rgb(92, 82, 82);
+}
+
+#feature-1 img:hover{
+    border: 2px solid #FF9F45;
+    border-radius: 10%;
+
+}
+
+#feature-2:hover{
+    color: rgb(92, 82, 82);
+    
+}
+
+#feature-2 img:hover{
+    border: 2px solid #FF9F45;
+    border-radius: 10%;
+}
+
+#feature-3:hover{
+    color: rgb(92, 82, 82);
+    
+}
+
+#feature-3 img:hover{
+    border: 2px solid #FF9F45;
+    border-radius: 10%;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 .footer{
     text-align: center;
@@ -144,33 +159,4 @@ footer a{
 
 #address:hover{
     border: 2px solid #8A39E1;
-}
-
-@media (min-width:0px) and (max-width:550px)
-{
-    #feature-1 img{
-        display: none;
-    }
-
-    #feature-2 img{
-        display: none;
-    }
-
-    #feature-3 img{
-        display: none;
-    }
-
-    #feature-1 p{
-        position: relative;
-        top: 0px;
-    }
-
-    #feature-2 p{
-        position: relative;
-        top: 0;
-    }
-    #feature-3 p{
-        position: relative;
-        top: 0;
-    }
 }
