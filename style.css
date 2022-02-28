@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+body{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    
+}
+
+.registration{
+    text-align: center;
+}
+.form{
+    margin: 10px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+#number{
+    margin-left: 0px;
+}
+#user-address{
+    margin-left: 0px;
+}
+
+#user-address input{
+    height: 60px;
+}
+
+/* #userage{
+    /* width: 60px;
+    margin: auto;
+}
+
+#gender{
+   
+} */
+
+.features{
+    height: auto;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+#feature-1 p{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    top: 83px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+#feature-1 img{
+    height: auto;
+    width: 13%;
+    position: relative;
+    left: 557px;
+    bottom: 90px;
+    border: 4px solid black;
+}
+#feature-1:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    color: #9145B6;
+}
+
+#feature-2:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    color: #B958A5;
+}
+
+#feature-3:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    color: #9A0680;
+}
+
+#feature-2 p{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    top: 83px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+#feature-2 img{
+    height: auto;
+    width: 13%;
+    position: relative;
+    right: 557px;
+    bottom: 90px;
+    border: 4px solid black;
+}
+
+#feature-3 p{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    top: 83px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+#feature-3 img{
+    height: auto;
+    width: 13%;
+    position: relative;
+    left: 557px;
+    bottom: 90px;
+    border: 4px solid black;
+}
+
+.footer{
+    text-align: center;
+    /* border: 2px solid blue; */
+    background-color: #000000;
+    z-index: 13;
+}
+
+.footer footer{
+    height: 60px;
+    /* border: 2px solid black; */
+    background-color: #007bff;
+    z-index: 12;
+    border-top: 4px solid black;
+}
+
+.footer footer span{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    color: black;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+
+footer a{
+    color: white;
+}
+
+#name:hover{
+    border: 2px solid #8A39E1;
+}
+
+#contact:hover{
+    border: 2px solid #8A39E1;
+}
+
+#address:hover{
+    border: 2px solid #8A39E1;
+}
+
+@media (min-width:0px) and (max-width:550px)
+{
+    #feature-1 img{
+        display: none;
+    }
+
+    #feature-2 img{
+        display: none;
+    }
+
+    #feature-3 img{
+        display: none;
+    }
+
+    #feature-1 p{
+        position: relative;
+        top: 0px;
+    }
+
+    #feature-2 p{
+        position: relative;
+        top: 0;
+    }
+    #feature-3 p{
+        position: relative;
+        top: 0;
+    }
+}
