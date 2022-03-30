@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
 body{
-    background-color: #FFDEE9;
-    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    background: #076585;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
+    
+}
+* {
+    box-sizing: border-box;
+  }
+
+.navbar{
+    position: fixed;
+    transition: top 0.3s;
+    z-index: 13;
+    width: 100%;
 }
 
 .registration{
@@ -33,7 +45,7 @@ body{
 } */
 .features{
     text-align: center;
-    display: inline-block;
+   display: inline-block;
     margin: 10px 75px;
 }
 
@@ -46,6 +58,7 @@ body{
 #feature-1 img{
     height: auto;
     width: 100%;
+    border-radius: 10%;
    
 }
 
@@ -59,6 +72,7 @@ body{
 #feature-2 img{
     height: auto;
     width: 100%;
+    border-radius: 10%;
    
 }
 
@@ -73,6 +87,7 @@ body{
 #feature-3 img{
     height: auto;
     width: 100%;
+    border-radius: 10%;
 }
 
 .features:hover{
@@ -86,7 +101,7 @@ body{
 
 #feature-1 img:hover{
     border: 2px solid #FF9F45;
-    border-radius: 10%;
+    
 
 }
 
@@ -97,7 +112,7 @@ body{
 
 #feature-2 img:hover{
     border: 2px solid #FF9F45;
-    border-radius: 10%;
+   
 }
 
 #feature-3:hover{
@@ -107,7 +122,7 @@ body{
 
 #feature-3 img:hover{
     border: 2px solid #FF9F45;
-    border-radius: 10%;
+    
 
 }
 
@@ -117,6 +132,7 @@ body{
     background-color: #000000;
     z-index: 13;
 }
+
 
 .footer footer{
     height: 60px;
@@ -155,8 +171,10 @@ footer a{
  .features{
    
   height: 1900px;
-  position: relative;
-  top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
      margin: 10px 50px;
  }
 
