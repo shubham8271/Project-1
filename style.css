@@ -23,7 +23,9 @@ body{
 .form{
     margin: 10px;
     font-family: 'Ubuntu Condensed', sans-serif;
+  
 }
+
 #number{
     margin-left: 0px;
 }
@@ -156,15 +158,28 @@ footer a{
 }
 
 #name:hover{
-    border: 2px solid #8A39E1;
+    
 }
 
 #contact:hover{
-    border: 2px solid #8A39E1;
+    
 }
 
 #address:hover{
-    border: 2px solid #8A39E1;
+    
+}
+html{scroll-behavior:smooth}
+
+.inputs{
+    background: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #DFDFDE;
+    padding : 0px 5px;
+    width: 500px;
+    outline: none;
+    margin: 10px 2px;
 }
 
 @media (min-width:0px) and (max-width: 500px){
@@ -181,6 +196,19 @@ footer a{
  .features:hover{
     transform: scale(1.05);
     transition: all 0.2s ease-in-out;
+}
+
+.container-fluid{
+  position: relative;
+  top: 55px;
+  height:280px;
+}
+
+.carousel-item img{
+  height: 250px;
+}
+.inputs{
+   width: 300px;
 }
 
 }
